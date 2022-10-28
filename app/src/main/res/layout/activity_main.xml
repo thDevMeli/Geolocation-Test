@@ -14,8 +14,16 @@
             android:id="@+id/search_location_button"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:layout_margin="40dp"
+            android:layout_marginHorizontal="20dp"
+            android:layout_marginTop="40dp"
             android:text="@string/search_location_button_text" />
+
+        <TextView
+            android:id="@+id/your_geolocation"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            tools:text="SUA GEOLOCALIZAÇÃO" />
 
         <WebView
             android:id="@+id/web_view"
