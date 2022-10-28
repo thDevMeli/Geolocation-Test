@@ -1,3 +1,4 @@
 <resources>
     <string name="app_name">Geolocation Test</string>
+    <string name="search_location_button_text">Buscar Latitude/Longitude</string>
 </resources>
